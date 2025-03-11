@@ -60,9 +60,9 @@ person4['name'] = 'Jose Doe'
 person4['age'] = 30;
 person4['city'] = 'Houston';
 
-console.log(person4.name);
-console.log(person4.age);
-console.log(person4.city);
+console.log(person4['name']);
+console.log(person4['age']);
+console.log(person4['city']);
 
 
 
