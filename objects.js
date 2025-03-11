@@ -43,8 +43,26 @@ console.log(person2.city); // Chicago
 
 // Write your code below
 
+const person3 = {};
+
+person3.name = 'Jill Doe';
+person3.age = 24;
+person3.city = 'Los Angeles'
+
+console.log(person3.name);
+console.log(person3.age);
+console.log(person3.city);
 
 
+const person4 = new Object();
+
+person4['name'] = 'Jose Doe'
+person4['age'] = 30;
+person4['city'] = 'Houston';
+
+console.log(person4.name);
+console.log(person4.age);
+console.log(person4.city);
 
 
 
@@ -74,7 +92,12 @@ let user = {
 // Write your code below, do not modify the user variable directly
 
 
+user.email = "orangeCFO@gmail.com";
+user.lastName = "Rodgers";
 
+user.age = 50;
+
+console.log(user);
 
 
 
@@ -108,6 +131,10 @@ const students = [
 
 // Write your code below
 
+
+for (let i = 0; i < students.length; i++) {
+    console.log(students[i].name);
+}
 
 
 
